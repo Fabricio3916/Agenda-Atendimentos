@@ -1,4 +1,7 @@
 package dev.Add.AgendaDeChamados.repository;
 
-public interface TecnicoRepository {
+import dev.Add.AgendaDeChamados.model.Tecnico;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TecnicoRepository extends JpaRepository<Tecnico, Integer> {
 }

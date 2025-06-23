@@ -1,4 +1,7 @@
 package dev.Add.AgendaDeChamados.repository;
 
-public interface ClienteRepository {
+import dev.Add.AgendaDeChamados.model.Cliente;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ClienteRepository extends JpaRepository<Cliente, Integer> {
 }
