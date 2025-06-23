@@ -18,7 +18,7 @@ public class Chamado {
     private Long id;
 
     @Column(name = "Cliente")
-    private String cliente;
+    private Cliente cliente;
 
     @Column(name = "descrição")
     private String descricao;
@@ -27,7 +27,7 @@ public class Chamado {
     private String solucao;
 
     @Column(name = "tecnico_atribuido")
-    private String tecnico;
+    private Tecnico tecnico;
 
     @Column(name = "status")
     private boolean status;
